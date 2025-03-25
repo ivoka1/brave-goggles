@@ -1,0 +1,19 @@
+! name: "Language Priority Goggle"
+! description: "Prioritizes search results in Slovenian, then English, then German"
+! public: false
+! author: ivoka
+
+# Boost Slovenian content
+$boost,site=slovenska-akademija.si
+$boost,site=slovenski-jezik.si
+$boost,site=ssb.si
+
+# Boost English content
+$boost,site=oxfordlearnersdictionaries.com
+$boost,site=merriam-webster.com
+$boost,site=grammarly.com
+
+# Boost German content
+$boost,site=duden.de
+$boost,site=leo.org
+$boost,site=dict.cc
