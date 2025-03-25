@@ -1,0 +1,14 @@
+! name: "Language Priority Goggle"
+! description: "Prioritizes search results in Slovenian, then English, then German"
+! public: false
+! author: ivoka
+
+
+# Boost Slovenian content
+$boost,lang:sl
+
+# Boost English content
+$boost,lang:en
+
+# Boost German content
+$boost,lang:de
